@@ -1,2 +1,2 @@
 # Unsupervised_Wikipedia_Recommendation_System
-This project aims to create a system for recommending articles related to a given Wikipedia article, based on tf-idf scores
+This project aims to create a system for recommending articles related to a given Wikipedia article, based on tf-idf scores. Using item-based recommendation, k-means clustering, hierarchical agglomerative clustering, and deep embedded clustering, the system find articles that are similar to a given article and return list ranked in terms of closeness to the original article.
