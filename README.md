@@ -3,15 +3,11 @@ This project aims to create a system for recommending articles related to a give
 
 This was my final project for Stanford's STATS315B Modern Applied Statistics II: Learning course in Spring 2023.
 
-The repository includes:
-* clustering_exploration.ipynb: code for determining the number of clusters to use for each clustering method
-* recommendation_system.ipynb: code for analyzing the properties of the final clusters, and for producing recommendations
-* The dataset, containing tf-idf scores for a selection of articles and a dictionary
-* The project report, describing the goals of the project, the methods used, the means by which the final clusters were determined, and an analysis of the recommendations given by each method.
-* Output, consisting of plots and tables for heterogenity, silhouette score, and cluster size for various clustering methods
+This repository includes:
+* clustering_exploration.ipynb: code for exploring the characteristics of clustering methods, used for selecting the final clusters
+* recommendation_system.ipynb: code for analysing the final clusters and for the recommendation system
+* STATS315B_Project_Report.pdf: report including the goals of the project, the methods used, the selection of the final clusters, and an analysis of the recommendation results
+* Dataset: includes tf-idf scores for a selection of Wikipedia articles, and a corresponding dictionary
+* Output: includes plots and tables for heterogenity scores, silhouette scores, and cluster sizes for various clustering methods
 
-For deep embedded clustering I used the Python package ptdec: https://github.com/vlukiyanov/pt-dec
-
-
-
-
+For the deep embedded clustering I used the package ptdec: https://github.com/vlukiyanov/pt-dec
